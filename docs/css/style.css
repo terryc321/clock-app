@@ -1,0 +1,27 @@
+/* some style */
+
+.clock {
+    display: flex;
+    width: 100%;
+}
+
+.clock-face {
+    display: flex;
+    width: 100%;
+    
+}
+
+.corner-box {
+    stroke-width="1";
+    stroke="red";
+    fill="transparent";
+    pointer-event="all";
+}
+
+
+.corner-box:hover {
+    stroke-width="1";
+    stroke="red";
+    fill="blue";
+}
+
